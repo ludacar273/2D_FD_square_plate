@@ -12,7 +12,7 @@ SUBROUTINE matrix_repre_final(n,nangular,k, A )!k ultimo valor de los k de fouri
        
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !Tensor interno (completa) 
- 
+!Matriz superior/ recordar que esta matriz diagonal tiene submatrices dependientes de k 
 
 do l = 0, k
 
